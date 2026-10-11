@@ -40,7 +40,7 @@ def create_solution():
 
     # Create Solution.md
 
-    file_path = folder / "Solution.md"
+    file_path = folder / f"{problem_name}_Solution.md"
     file_path.write_text(content, encoding="utf-8")
 
     print(f"\nCreated: {file_path}")
